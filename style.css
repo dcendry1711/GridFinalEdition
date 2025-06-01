@@ -31,6 +31,7 @@ header {
 /*MAIN*/
 
 .grid-container {
+    margin-bottom: 1.5em;
     display: grid;
     grid-template-columns: 1fr;
     gap: .2em;
@@ -99,5 +100,11 @@ a {
 
 h1 a{
     color: white;
+}
+
+.recent-posts {
+    margin: 3em 0 1.5em;
+    text-align: center;
+    font-weight: bold;
 }
 
