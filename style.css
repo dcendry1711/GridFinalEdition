@@ -1,0 +1,103 @@
+/* DEFAULT SETTINGS*/
+
+* {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/*HEADER SECTION*/
+
+header, .logo-section, .menu {
+    display: flex;
+}
+
+header {
+    padding:1em 1.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    gap: .5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.menu {
+    gap: 1.5em;
+    font-weight: bold;
+}
+
+/*MAIN*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .2em;
+}
+
+.grid-item{
+    margin: .3em auto;
+    padding: .3em 0;
+    width: 90%;
+}
+
+.hero-article{
+    width: 100%;
+    background-image: url(img/header-article.png);
+    background-size: cover;
+    color: white;
+    height: 35vh;
+}
+
+.hero-content {
+    margin: 0 1.5em;
+    justify-content: flex-end;
+    height: 90%;
+}
+
+.article-img {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+}
+
+.article-text, .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+}
+
+.content {
+    line-height: 1.25;
+}
+
+.view-more {
+    margin: 2em 0 3em;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer {
+    padding: 4em 0;
+    font-size: 0.75rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/*LINKS*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a{
+    color: white;
+}
+
