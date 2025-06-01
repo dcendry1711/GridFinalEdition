@@ -108,3 +108,10 @@ h1 a{
     font-weight: bold;
 }
 
+/*ABOUT ME*/
+
+.my-photo {
+    width: 182px;
+    height: 182px;
+}
+
